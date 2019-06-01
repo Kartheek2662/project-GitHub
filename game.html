@@ -54,7 +54,8 @@ function memoryFlipTile(tile,val){
 		} else if(memory_values.length == 1){
 			memory_values.push(val);
 			memory_tile_ids.push(tile.id);
-			if(memory_values[0] == memory_values[1]){
+			if(memory_values[0] == memory_values[1])
+			{
 				tiles_flipped += 2;
 				memory_values = [];
             	memory_tile_ids = [];
