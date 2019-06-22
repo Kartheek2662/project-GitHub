@@ -19,10 +19,6 @@
         let b2 = function() { return 50 }
         log( a2(b2()) );
         
-        /**
-        setTimeout, callbacks for geolocation, Promises, fetch, ajax, filesystem interaction, database calls, even DOM event listeners
-        **/
-        
         let a3 = 100;
         setTimeout( function(){ a3++;  }, 0);
         log(a3);
