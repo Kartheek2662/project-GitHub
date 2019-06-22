@@ -1,0 +1,36 @@
+select,option,input,span,btn
+{
+    font-size: small;        
+    overflow: initial;
+    text-overflow: ellipsis;
+}
+select
+{
+    height: 31px;
+}
+
+.ng-valid[required], .ng-valid.required
+{
+    border-left: 5px solid #42A948; /* success */
+}
+
+.ng-invalid:not(form)
+{
+    border-left: 5px solid #a94442; /* Error */
+} 
+
+.skills-box {
+    display: inline-block;
+    padding: 0px 7px;
+    background: #f7fbfd;
+    color: #696969;
+    border-radius: 2px;
+    margin: 3px;
+    border: 1px solid #e5e7e8;
+    box-shadow: 2px 2px 0px 0px #d4d4d4;
+ }
+ .jumbotron-fluid
+ {
+    margin-top: 10px;
+    min-height: 100vh;
+ }
